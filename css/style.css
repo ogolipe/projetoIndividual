@@ -1,0 +1,260 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;500&display=swap');
+
+/*Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+/*Efeito smooth entre as seções*/
+html{
+    scroll-behavior: smooth;
+}
+
+a:visited{
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+.pagina-inicial{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.conteudo-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+}
+
+.header-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-menu{
+    display: flex;
+    gap: 32px;
+    font-family: 'Barlow', sans-serif ;
+    font-weight: 100px;
+    color: black;
+}
+
+.conteudo-inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+    width: 80%;
+    height: 80%;
+}
+
+.container-principal-escrito{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-imagem{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+;
+}
+
+.container-principal-escrito-nome{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-principal-escrito-subtitulo{
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Relativo ao Conteudo Sobre*/
+
+.conteudo-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.container-sobre-escrito{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    background-color: black;
+}
+
+.sobre-titulo{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+}
+
+.sobre-escrito{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+}
+
+.imagem-sobre{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-color: blue;
+}
+
+.conteudo-imagem-sobre{
+    height: 100vh;
+    width: 100%;
+}
+
+/*Relativo ao conteúdo Hobbies*/
+
+.conteudo-hobbies{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.conteudo-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color:gray;
+}
+
+.container-contato-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+}
+
+.contato-titulo{
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+    margin-left: 10px;
+}
+
+.contato-escrito{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    color: darkgray;
+    margin-left: 10px;
+}
+
+.conteudo-form{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-color: gray;
+}
+
+.conteudo-form{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-form{
+    width: 400px;
+    padding: 30px;
+}
+
+
+.form-campo{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.form-campo label{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}

@@ -16,7 +16,7 @@
 </head>
 <body>
  
-    <section class="conteudo">
+    <section id="inicial" class="conteudo">
 
     <!--Primeira página-->
         <section class="pagina-inicial">
@@ -24,12 +24,13 @@
             <header class="conteudo-header">
 
                 <div class="conteudo-box-logo">
-                    <img class="header-icon" src="imagens/logo.png" alt="mob">
+                    <img class="header-icon" src="imagens/logo2.png" alt="mob">
                 </div>
         
                 <!-- Menu superior -->
                 <nav class="header-menu">
-        
+                    
+                    <a class="header-menu-item" href="#inicial">Início</a>
                     <a class="header-menu-item" href="#sobre">Quem sou eu?</a>
                     <a class="header-menu-item" href="#hobbies">Hobbies/Interesses</a>
                     <a class="header-menu-item" href="#contato">Contato</a>
@@ -77,12 +78,40 @@
             </div>
 
             <div class="imagem-sobre">
-                    <img class="conteudo-imagem-sobre" src="imagens/sobreimagem.jpg" alt="">
+                    <img class="conteudo-imagem-sobre" src="imagens/imagem2.png" alt="">
             </div>
 
         </section>
 
         <section id="hobbies" class="conteudo-hobbies">
+
+            <div class="container-titulo-hobbies">
+                <p>O que gosto de fazer!</p>
+            </div>
+
+            <div class="container-hobbies">
+
+                <div class="imgnamehobbies">
+                    <img class="imghobbies" src="imagens/podcast.png" alt="podcasts">
+                    <p class="phobbies">Gosto de ouvir podcasts.</p>
+                </div>
+
+                <div class="imgnamehobbies">
+                    <img class="imghobbies" src="imagens/bolos.png" alt="bolos">
+                    <p class="phobbies">Gosto de fazer bolos.</p>
+                </div>
+
+                <div class="imgnamehobbies">
+                    <img class="imghobbies" src="imagens/cinema.png" alt="filme">
+                    <p class="phobbies">Gosto de ver filmes.</p>
+                </div>
+
+                <div class="imgnamehobbies">
+                    <img class="imghobbies" src="imagens/bike.png" alt="bolos">
+                    <p class="phobbies">Gosto de passear de bike.</p>
+                </div>
+
+            </div>
 
         </section>
 
@@ -116,7 +145,7 @@
                         <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
                     </div>
             
-                    <input type="reset" name="acao" value="Enviar">
+                    <input class="button" type="reset" value="Enviar">
                 </form>
             </div>
             
